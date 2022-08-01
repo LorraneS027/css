@@ -1,0 +1,25 @@
+.back-header {
+    background-color: rgba(21, 82, 21, 0.678);
+    margin: 0px;
+    padding: 3px;
+}
+
+
+body {
+
+    background-color: rgba(136, 165, 136, 0.445);
+}
+
+.itens-menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-principal {
+    padding: 0px;
+}
+
+.titulo-menu {
+    text-align: center;
+    color: #fff;
+}
