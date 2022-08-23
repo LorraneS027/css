@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        caption{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(135, 141, 143);
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+             background-color: gray;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1> 
+    <table>
+        <caption>Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:50px
+                 ;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Boa vista</td>
+                <td class="num">44 169 350</td>
+            </tr>
+                <tr>
+                <td>Porto velho</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Aracaju</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Porto alegre</td>
+                <td class="num">44 169 350</td>
+            </tr>
+            <tr>
+                <td>Natal</td>
+                <td class="num">44 169 350</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">TOTAL DE HABITANTES</th>
+                <TD class="num">0000</TD>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
